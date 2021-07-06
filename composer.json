@@ -1,0 +1,19 @@
+{
+    "name": "barbierivc/php_mysql",
+    "description": "first study of the book Building applications with PHP and MySql",
+    "type": "MIT",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Barbierivc\\PhpMysql\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius de Camargo Barbieri",
+            "email": "barbierivc66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
