@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+    <h2>Formulário para Sessão puxar o Nome de Usuário</h2>
     <FORM action="codigo_fonte_12.1.php?action=sent" method="POST">
         Digite seu nome:
         <INPUT TYPE="Text" name="CAMPO_USUARIO">
@@ -20,5 +21,39 @@
         <INPUT TYPE="submit" value="Enviar">
     </FORM>
 
+
+<h2>Formulário para cadastro de livros</h2>
+
+<form method="post" action="gerencia-registro.php?acao=adicionar">
+    <table>
+        <tr>
+            <td>Nome do Livro</td>
+            <td>
+                <input type="text" name="FormNomeLivro" maxlength="64">
+            </td>
+        </tr>
+        <tr>
+            <td>Nome do Autor</td>
+            <td>
+                <input type="text" name="FormNomeAutor" maxlength="32">
+            </td>
+        </tr>
+        <tr>
+            <td>Nome da Editora</td>
+            <td>
+                <input type="text" name="FormNomeEditora" maxlength="16">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Cadastrar">
+            </td>
+        </tr>
+    </table>
+
+</form>
+
 </body>
 </html>
+
